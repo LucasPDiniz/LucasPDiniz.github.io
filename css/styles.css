@@ -137,3 +137,35 @@
 #btn-projects:hover {
     background-color: transparent;
 }
+
+#skill-section-title {
+    border-top: 1px solid var(--border-color);
+    padding-top: 20px;
+    margin-top: 20px;
+    font-size: 35px;
+}
+
+#skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 24px;
+}
+
+.skills-box {
+    flex: 1 1 33%;
+    max-width: 33%;
+    margin-bottom: 30px;
+}
+
+.skills-title {
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    padding-left: 10px;
+    border-left: 5px solid var(--main-color);
+}
+
+.skills-box i {
+    font-size: 45px;
+    margin-right: 10px;
+}
